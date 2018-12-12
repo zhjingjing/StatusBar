@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:title="@string/app_name"
+            android:id="@+id/tool_bar"
+            >
+        </android.support.v7.widget.Toolbar>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/icon_banner"
+            android:fitsSystemWindows="true"
+            android:clipToPadding="true"
+            android:scaleType="centerCrop"
+        />
+</LinearLayout>
